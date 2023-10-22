@@ -5,8 +5,13 @@
     "dev": "parcel",
     "build": "parcel build"
   },
+  "staticFiles": {
+    "staticPath": "src",
+    "globPattern": "**/*.html"
+  },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.10.0",
-    "parcel": "^2.10.0"
+    "parcel": "^2.10.0",
+    "parcel-plugin-static-files-copy": "^2.6.0"
   }
 }

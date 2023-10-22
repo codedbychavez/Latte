@@ -5,9 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Latte App</title>
     <link rel="stylesheet" href="main.scss">
-    <script src="index.ts"></script>
+    <script src="index.ts" type="module"></script>
 </head>
 <body>
-    <div id="app">Hello</div>
+    <div id="app">
+        <app-navbar></app-navbar>
+
+        <app-footer></app-footer>
+    </div>
 </body>
 </html>
